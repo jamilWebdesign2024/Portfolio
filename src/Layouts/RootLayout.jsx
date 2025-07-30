@@ -3,6 +3,9 @@ import ThemeToggle from '../components/ThemeToggle';
 import StarBackground from '../components/StarBackground';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
+import AboutMe from '../components/AboutMe';
+import SkillsSection from '../components/SkillsSection';
+import ProjectSection from '../components/ProjectSection';
 
 const RootLayout = () => {
     return (
@@ -18,6 +21,9 @@ const RootLayout = () => {
            {/* Main Content */}
             <main>
                 <HeroSection/>
+                <AboutMe/>
+                <SkillsSection/>
+                <ProjectSection/>
             </main>
 
            {/* Footer */}
